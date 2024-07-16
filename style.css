@@ -1,0 +1,85 @@
+.main-header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+h1,h3 {
+    margin: 0;
+}
+
+.secondary-header {
+    background-color: white;
+    text-align: center;
+}
+
+.container {
+    width: 800px;
+    /* min-height: 600px; */
+
+    margin: 0 auto;
+
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+main {
+    flex: 1;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.main-card {
+    border: 2px solid #999999;
+    padding: 20px;
+    
+}
+
+aside {
+    flex: 4;
+}
+
+.card-header {
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.card > p {
+    padding: 0 20px;
+}
+
+.card {
+    border: 2px solid #999999;
+    margin-bottom: 1.5rem;
+
+
+}
+
+img {
+    width: 100px;
+
+
+}
+
+.link {
+    text-align: center;
+    margin: auto;
+}
+
+
+.btn {
+    background-color: orange;
+    padding: 10px 20px;
+    /* Increase as needed */
+    box-shadow: 3px 3px;
+
+}
